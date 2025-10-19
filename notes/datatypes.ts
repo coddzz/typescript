@@ -31,7 +31,3 @@ console.log(Direction.Left); // 2
 let id: number | string;
 id = 101;
 id = "A101";
-
-//Literal Type
-let color: "red" | "blue" | "green";
-color = "red";
