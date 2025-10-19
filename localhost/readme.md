@@ -1,5 +1,12 @@
 
 # Typescript
+# TypeScript = JavaScript + Types
+
+~ It’s a superset of JavaScript.
+~ Adds static typing (type checking before running).
+~ Compiles to JavaScript (browser/Node can run it).
+
+
 # Why Type Checking is Important?
 (Many common JS bugs are avoided before deployment.)
 Finds bugs early
@@ -27,7 +34,8 @@ Prevents runtime crashes
 }
 > mkdir src
        -- src/index.ts
-> tsc --watch              ---   compile & run
+> tsc --watch
+// http://127.0.0.1:5500/dist/
 
 # cmd for compile and run ts files
 > tsc   <filename>      ---   compile 
